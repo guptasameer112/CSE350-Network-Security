@@ -1,0 +1,15 @@
+Inputs: 
+["If you want one piece of advice from me, it's to freeze your oranges before you eat them."]
+
+Prepared plaintexts: 
+["If you want one piece of advice from me, it's to freeze your oranges before you eat them.="]
+
+Ciphertexts with hash: 
+["aidmszrfe=wpao'eoe .   rte bumueffirr oeono  fusyhyo e, oe t  eceoyge ftcimt nrtInev  eaoakmbdghmfikjnbkjmmphihmdfjkimgbffofnnfgcpoldabgjcfkgnkofhgkckidea"]
+
+Decrypted plaintexts: 
+["If you want one piece of advice from me, it's to freeze your oranges before you eat them.="]
+
+Decrypted plaintexts without padding: 
+["If you want one piece of advice from me, it's to freeze your oranges before you eat them."]
+
