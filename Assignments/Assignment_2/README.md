@@ -39,6 +39,7 @@ The encryption process is as follows: <br>
 <li> <b> Substitution: </b> The expanded half-block is divided into 6-bit segments, which are substituted using 8 S-boxes to produce a 32-bit output.
 <li> <b> Permutation: </b> The output of the substitution step is permuted using the permutation table.
 <li> <b> XOR with Subkey: </b> The permuted output is XORed with the corresponding 48-bit subkey.
+</ul>
 <li> <b> Final Permutation: </b> After the last round, the left and right halves of the block are swapped, and the final permutation is applied.
 </ul>
 
