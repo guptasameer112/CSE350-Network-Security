@@ -18,12 +18,12 @@ def des_round(input_half, key, round_num):
     substituted = s_box_substitution(xor_result)
     permuted = permute(substituted, P)
 
-    # Printing details with timestamp
-    print(f"{time.time()} - Round {round_num} - Input: {input_half}")
-    print(f"{time.time()} - Round {round_num} - Key: {key}")
-    print(f"{time.time()} - Round {round_num} - Expanded: {expanded_half}")
-    print(f"{time.time()} - Round {round_num} - XOR: {xor_result}")
-    print(f"{time.time()} - Round {round_num} - Substituted: {substituted}")
-    print(f"{time.time()} - Round {round_num} - Permuted: {permuted}")
+    with open('output.txt', 'a') as f:
+        f.write(f"{time.time()} - Round {round_num} - Input: {input_half}\n")
+        f.write(f"{time.time()} - Round {round_num} - Key: {key}\n")
+        f.write(f"{time.time()} - Round {round_num} - Expanded: {expanded_half}\n")
+        f.write(f"{time.time()} - Round {round_num} - XOR: {xor_result}\n")
+        f.write(f"{time.time()} - Round {round_num} - Substituted: {substituted}\n")
+        f.write(f"{time.time()} - Round {round_num} - Permuted: {permuted}\n\n")
 
     return permuted
