@@ -1,3 +1,5 @@
-def permute(block, table):
-    """General permutation function."""
-    return ''.join(block[i - 1] for i in table)
+def permute(input_bit_string, permutation_table):
+    '''
+        Generates permutations.
+    '''
+    return ''.join(input_bit_string[i - 1] for i in permutation_table)

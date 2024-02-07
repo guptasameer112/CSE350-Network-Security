@@ -74,7 +74,7 @@ The decryption process is as follows: <br>
 <br>
 <b><u> Sample 1: </u></b><br>
 <ul>
-<li> <b> Input </b>: ""
+<li> <b> Input </b>: "123456789ABCDEF"
 <li> <b> Output </b>: 
 
 <img src = "public\output_1.png">
@@ -84,7 +84,7 @@ The decryption process is as follows: <br>
 
 <b><u> Sample 2: </u></b><br>
 <ul>
-<li> <b> Input </b>: ""
+<li> <b> Input </b>: "9929381AB"
 <li> <b> Output </b>: 
 
 <img src = "public\output_2.png">
@@ -92,11 +92,11 @@ The decryption process is as follows: <br>
 
 <br><br>
 
-<b><u> Sample 3: </u></b><br>
+<b><u> Sample 3: Different Key </u></b><br>
 <ul>
-<li> <b> Input </b>: ""
+<li> <b> Input </b>: "8784BCD"
 <li> <b> Output </b>: 
 
-<img src = "public\output_2.png">
+<img src = "public\output_3.png">
 </ul>
 
