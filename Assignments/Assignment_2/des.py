@@ -14,6 +14,7 @@ def des(input_bit_array, key_bit_array, encrypt=True):
     for round_num, round_key in enumerate(round_keys, start=1):
         # Modification to include round_num in des_round call
         L, R = R, xor(L, des_round(R, round_key, round_num))
+        fprintf(f"{time.time()} - Round {round_num} - Output: {R}")
 
     # Final permutation
     pre_output = R + L  # Reverse R and L before final permutation
