@@ -24,6 +24,6 @@ def des_round(input_half, key, round_num):
         f.write(f"{time.time()} - Round {round_num} - Expanded: {expanded_half}\n")
         f.write(f"{time.time()} - Round {round_num} - XOR: {xor_result}\n")
         f.write(f"{time.time()} - Round {round_num} - Substituted: {substituted}\n")
-        f.write(f"{time.time()} - Round {round_num} - Permuted: {permuted}\n\n")
+        f.write(f"{time.time()} - Round {round_num} - Permuted: {permuted}\n")
 
     return permuted
